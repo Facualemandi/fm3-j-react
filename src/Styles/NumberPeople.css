@@ -1,0 +1,31 @@
+.section_people{
+   margin: 1vh;
+}
+.section_people p {
+    margin-left: 2vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: hsl(183, 100%, 15%);
+}
+
+.div_people{
+    border-radius: 5px;
+    padding: 2vh;
+    margin: 2vh;
+    width: 40vh;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1vh;
+    background-color: hsl(185, 41%, 84%);
+}
+
+.div_people input{
+    background-color: hsl(185, 41%, 84%);
+    width: 45vh;
+}
+.icon_people{
+    color: hsl(183, 100%, 15%);
+}

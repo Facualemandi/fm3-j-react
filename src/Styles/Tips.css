@@ -1,0 +1,29 @@
+.section_tips{
+    margin: 2vh;
+    width: 40vh;
+}
+.section_tips p{
+  margin: 1vh;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: hsl(183, 100%, 15%);
+  font-size: 15px;
+}
+
+.div_tips button, input{
+    width: 10vh;
+    height: 45px;
+    margin: 1vh;
+    border-radius: 8px;
+    border: none;
+}
+
+.div_tips input{
+    border: 1px solid grey;
+}
+
+.div_tips button{
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
