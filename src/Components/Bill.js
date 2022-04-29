@@ -22,7 +22,7 @@ const Bill = ({bill, setBill, error}) => {
 
           <div className='div_container_input'>
               <FontAwesomeIcon icon={faDollarSign}/>
-             <input type='number' onChange={onChangeBill} value={bill} placeholder='Ingese el total de la cuenta'/>
+             <input type='number' onChange={onChangeBill} value={bill} placeholder='Bill total'/>
           </div>
             {error === true ? <p className='error'>El número ingresado no puede ser 0</p>: <p></p>}
      </section>

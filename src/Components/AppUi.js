@@ -35,7 +35,7 @@ const AppUi = () => {
       const totalXPerson = bill / peopleTotal + totalTotal;
       const totalTipPerson = totalTotal.toFixed(2);
 
-      return setAmount(totalTipPerson), setTotalPerson(totalXPerson.toFixed(2));
+      return setAmount('$' + totalTipPerson), setTotalPerson('$' + totalXPerson.toFixed(2));
     }
   };
 
