@@ -1,6 +1,11 @@
-import React from 'react'
+import React,{useState}from 'react'
 import '../Styles/TipAmount.css'
-const TipAmount = () => {
+
+
+
+
+const TipAmount = ({amount}) => {
+   
   return (
        <>
        <section className='section_aamount'>
@@ -9,7 +14,7 @@ const TipAmount = () => {
            <span>/ Person</span>
          </div>
 
-         <span className='tip_span'> $0.00 </span>       
+         <span className='tip_span'> {amount} </span>       
        </section>
        </>
   )

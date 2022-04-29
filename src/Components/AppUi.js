@@ -13,8 +13,10 @@ const AppUi = () => {
 
   const [bill, setBill] = useState('');
   const [people, setPeople] = useState('');
+  const [totalPerson, setTotalPerson] = useState('$0.00')
+  const [amount, setAmount] = useState('$0.00');
 
-  const selectTip = () => {
+  const selectTip = (numb) => {
       if(!bill || bill == 0 ){
         return alert('El valor total no puede ser 0')
       }if(!people || people == 0){
@@ -22,10 +24,16 @@ const AppUi = () => {
       }if(bill && people){
          let billTotal = parseInt(bill);
          let peopleTotal = parseInt(people);
-          const totalTotal =  billTotal 
-      }
-  } 
+         const totalTotal =  ((billTotal / 100) * numb ) / peopleTotal
+         const totalXPerson = (bill / peopleTotal) + totalTotal;
+         const totalTipPerson = totalTotal.toFixed(2)
 
+         return (
+           setAmount(totalTipPerson),
+           setTotalPerson(totalXPerson.toFixed(2))
+           )
+        }
+  }
 
   return (
      <>
@@ -39,8 +47,8 @@ const AppUi = () => {
              </section>
 
                     <ContenTips>
-                            <TipAmount/>
-                            <TotalTips/>
+                            <TipAmount amount={amount}/>
+                            <TotalTips totalPerson={totalPerson}/>
                             <ButtomReset/>
                     </ContenTips>
            
