@@ -7,3 +7,7 @@
 html{
   background-color: hsl(185, 41%, 84%);
 }
+main{
+  display: flex;
+}
+

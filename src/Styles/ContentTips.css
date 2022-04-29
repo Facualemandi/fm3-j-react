@@ -1,0 +1,7 @@
+.section_content_tips{
+    border: 1px solid black;
+    width: 40vh;
+    margin: 2vh;
+    border-radius: 10px;
+    background-color: hsl(183, 100%, 15%);
+}

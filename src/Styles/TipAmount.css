@@ -1,0 +1,20 @@
+.section_aamount{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.div_amount p{
+    color: white;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 16px;
+}
+.div_amount span{
+    font-size: 12px;
+    color: hsl(186, 14%, 43%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.tip_span{
+      font-size: 30px;
+      color:  hsl(172, 67%, 45%);
+      font-family: 'Barlow Semi Condensed', sans-serif;
+}
