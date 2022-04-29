@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/fm3-j-react/static/css/main.61fdab17.css",
+    "main.js": "/fm3-j-react/static/js/main.8d400b72.js",
+    "static/media/logo.svg": "/fm3-j-react/static/media/logo.3cc0528bd46321d63d85702006069614.svg",
+    "index.html": "/fm3-j-react/index.html",
+    "main.61fdab17.css.map": "/fm3-j-react/static/css/main.61fdab17.css.map",
+    "main.8d400b72.js.map": "/fm3-j-react/static/js/main.8d400b72.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61fdab17.css",
+    "static/js/main.8d400b72.js"
+  ]
+}
