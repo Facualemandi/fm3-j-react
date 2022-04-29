@@ -4,7 +4,7 @@
 }
 .section_tips p{
   margin: 1vh;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: Space,monospace;
   color: hsl(183, 100%, 15%);
   font-size: 15px;
 }
@@ -15,10 +15,12 @@
     margin: 1vh;
     border-radius: 8px;
     border: none;
+    font-family: Space,monospace;
 }
 
 .div_tips input{
     border: 1px solid grey;
+    font-family: Space,monospace;
 }
 
 .div_tips button{

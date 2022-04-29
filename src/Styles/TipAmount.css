@@ -5,16 +5,16 @@
 }
 .div_amount p{
     color: white;
-    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: Space,monospace;
     font-size: 16px;
 }
 .div_amount span{
     font-size: 12px;
     color: hsl(186, 14%, 43%);
-    font-family: 'Barlow Semi Condensed', sans-serif;
+     font-family: Space,monospace;
 }
 .tip_span{
       font-size: 30px;
       color:  hsl(172, 67%, 45%);
-      font-family: 'Barlow Semi Condensed', sans-serif;
+      font-family: Space,monospace;
 }
