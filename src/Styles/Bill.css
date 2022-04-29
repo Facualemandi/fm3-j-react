@@ -23,3 +23,14 @@
     border: none;
     background-color: hsl(185, 41%, 84%);
 }
+
+.section_bill .error{
+    color: red;
+    width: 32vh;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 219, 219);
+    margin-top: 5px;
+}

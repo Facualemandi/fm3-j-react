@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDollarSign } from '@fortawesome/free-solid-svg-icons'
 
 
-const Bill = ({bill, setBill}) => {
+const Bill = ({bill, setBill, error}) => {
 
    
 
@@ -24,6 +24,7 @@ const Bill = ({bill, setBill}) => {
               <FontAwesomeIcon icon={faDollarSign}/>
              <input type='number' onChange={onChangeBill} value={bill}/>
           </div>
+            {error === true ? <p className='error'>El número ingresado no puede ser 0</p>: <p></p>}
      </section>
   )
 }

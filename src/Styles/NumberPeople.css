@@ -11,7 +11,7 @@
 .div_people{
     border-radius: 5px;
     padding: 2vh;
-    margin: 2vh;
+    margin: 1vh;
     width: 40vh;
     height: 45px;
     display: flex;
@@ -28,4 +28,15 @@
 }
 .icon_people{
     color: hsl(183, 100%, 15%);
+}
+
+.section_people .error{
+    color: red;
+    width: 32vh;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 219, 219);
+    margin-top: 5px;
 }

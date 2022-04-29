@@ -2,7 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUserLarge } from '@fortawesome/free-solid-svg-icons'
 import '../Styles/NumberPeople.css'
-const NumberPeople = ({people, setPeople}) => {
+const NumberPeople = ({people, setPeople, errorPeople}) => {
 
     const onChangePeople = (e) => {
          console.log(e.target.value);
@@ -18,6 +18,7 @@ const NumberPeople = ({people, setPeople}) => {
                   <FontAwesomeIcon icon={faUserLarge} className='icon_people'/>
                   <input type='number' value={people} onChange={onChangePeople}/>
               </div>
+                {errorPeople === true ? <p className='error'>El número ingresado no puede ser 0</p>: <p></p>}
        </section>
      
      </>

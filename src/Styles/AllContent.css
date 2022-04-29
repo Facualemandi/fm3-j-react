@@ -6,3 +6,9 @@
     padding: 1vh;
     background-color: white;
 }
+
+@media (max-width: 840px){
+    .allcontent{
+        width: 50vh;
+    }
+}
