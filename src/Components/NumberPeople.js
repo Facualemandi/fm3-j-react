@@ -16,7 +16,7 @@ const NumberPeople = ({people, setPeople, errorPeople}) => {
 
               <div className='div_people'>
                   <FontAwesomeIcon icon={faUserLarge} className='icon_people'/>
-                  <input type='number' value={people} onChange={onChangePeople}/>
+                  <input type='number' value={people} onChange={onChangePeople} placeholder='Ingrese la cantidad de personas'/>
               </div>
                 {errorPeople === true ? <p className='error'>El número ingresado no puede ser 0</p>: <p></p>}
        </section>

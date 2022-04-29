@@ -10,8 +10,8 @@ import Tips from "./Tips";
 import TotalTips from "./TotalTips";
 
 const AppUi = () => {
-  const [bill, setBill] = useState(parseInt(0));
-  const [people, setPeople] = useState(parseInt(0));
+  const [bill, setBill] = useState('');
+  const [people, setPeople] = useState('');
   const [totalPerson, setTotalPerson] = useState("$0.00");
   const [amount, setAmount] = useState("$0.00");
   const [error, setError] = useState(false);
